@@ -1,0 +1,55 @@
+body, html {
+	height: 100%;
+}
+
+body {
+	/*
+	background-image: url("laptop.jpg");
+	background-image: url("pexels-photo-586067.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    */
+}
+
+.startup {
+  background-position: center;
+  background-image: url("pexels-photo-586067.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+/*
+.btn {
+  color: white;
+  outline-color: white;
+  align-self: baseline;
+}
+
+.btn-outline-dark {
+  border-color: #FFFFF; }
+*/
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border-color: #FFFFFF; }
+
+.btn-primary:hover {
+  background-color: #1a1a59;
+  border-color: #1a1a59;
+  border-width: 5px;
+  cursor: pointer;
+}
+  
+
